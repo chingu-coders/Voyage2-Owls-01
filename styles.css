@@ -1,3 +1,8 @@
-div {
-	border: 1px solid black;
+/*Remove padding and margin*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
+
+
