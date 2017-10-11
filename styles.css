@@ -6,17 +6,24 @@
 	box-sizing: border-box;
 }
 
+html {
+	font-family:sans-serif;
+}
+
+
 body {
 	background-color: #fff;
 	color: #4c5155;
 	font-size: 16px;
-	overflow-x: hidden;
+	overflow-x: hidden;.
+	margin: 0;
+}
+ 
+div, section {
+	/*border: 1px solid black;*/
+	height: 500px;
 }
 
-div, section {
-	border: 1px solid black;
-	height: 200px;
-}
 body, html {
 	height: 100%;
 	min-width: 200px;
@@ -82,3 +89,34 @@ h1 {
 	-webkit-margin-start: 0px;
 	-webkit-margin-end: 0px;
 }
+
+.testimonials .testimonial .text-center h3 {
+	font-weight: 700;
+	margin: 1em 0 1.125em;
+	font-family: inherit;
+}
+
+.testimonials a {
+	color: #21cdb2;
+	font-size: 16px;
+}
+
+.testimonials h3 {
+	font-weight: 700;
+	margin: 1em 0 1.125em;
+	font-size: 1.375em;
+}
+
+.testimonials .row {
+	height: 10px;
+}
+
+.testimonials img {
+	height: 250px;
+	width: 400px;
+}
+
+#testimonials {
+	height: 750px;
+}
+
