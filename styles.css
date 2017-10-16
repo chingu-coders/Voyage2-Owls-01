@@ -1,0 +1,122 @@
+/*Remove padding and margin*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family:sans-serif;
+}
+
+
+body {
+	background-color: #fff;
+	color: #4c5155;
+	font-size: 16px;
+	overflow-x: hidden;.
+	margin: 0;
+}
+ 
+div, section {
+	/*border: 1px solid black;*/
+	height: 500px;
+}
+
+body, html {
+	height: 100%;
+	min-width: 200px;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+.font-family-sans, body, html {
+	font-family: "Merriweather Sans", sans-serif;
+}
+
+.announcement-bar-content {
+	display: block;
+	line-height: 3.75em;
+	text-align: center;
+	width: 100%;
+}
+
+.announcement-bar-content-text {
+	display: inline-block;
+	font-size: .9375em;
+	margin: 0;
+	vertical-align: middle;
+}
+
+.announcement-bar-content-cta {
+	color: #21cdb2;
+	display: inline-block;
+	font-size: .9375em;
+	font-weight: 700;
+	margin-left: .3125em;
+	text-decoration: underline;
+	vertical-align: middle;
+}
+
+.navbar-default .navbar-collapse {
+	border-color: transparent;
+}
+
+
+.main-header, .product-header {
+	background-image: url(assets/img/header-icons.01d079.png);
+	background-color: #21cdb2;
+	background-position-y: 120px;
+	background-repeat: no-repeat;
+	color: #fff;
+	margin-top: -5.25em;
+	min-height: 21.25em;
+	padding: 5.25em 0 20%;
+}
+
+.main-header .headline h1 {
+	font-size: 2.375em;
+	font-weight: 300;
+	line-height: 1.3;
+	margin: 0;
+}
+
+h1 {
+	display: block;
+	-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+.testimonials .testimonial .text-center h3 {
+	font-weight: 700;
+	margin: 1em 0 1.125em;
+	font-family: inherit;
+}
+
+.testimonials a {
+	color: #21cdb2;
+	font-size: 16px;
+}
+
+.testimonials h3 {
+	font-weight: 700;
+	margin: 1em 0 1.125em;
+	font-size: 1.375em;
+}
+
+.testimonials .row {
+	height: 10px;
+}
+
+.testimonials img {
+	height: 250px;
+	width: 400px;
+}
+
+#testimonials {
+	height: 750px;
+}
+
