@@ -106,7 +106,7 @@ body, html {
 	width: 780px;
 	height: 504px;
 	margin-left: 832px;
-	margin-top: -24em;
+	margin-top: -36em;
 }
 
 .main-header, .headline {
@@ -127,6 +127,11 @@ body, html {
 	letter-spacing: 5px;
 }
 
+.main-header .headline .btn-slack {
+	height: 80px;
+	width: 278px;
+}
+
 .main-header .headline p {
 	margin: 12px 0 32px;
 	opacity: .8;
@@ -137,10 +142,11 @@ body, html {
 	
 }
 
-svg .divider polygon {
+.divider polygon {
 	position: absolute;
-	fill: ;
+	fill: #fff;
 	transform: translateY(-100%);
+	border: 1px solid black;
 }
 
 .home-clients {
@@ -173,37 +179,102 @@ svg .divider polygon {
 .home-how-it-works .how-it-works-content li {
 	color: #8d9499;
 	font-size: 1.125em;
+	margin: 0 auto;
+	display: list-item;
+	text-align: -webkit-match-parent;
+
 }
 
+.home-how-it-works .divider .polygon {
+	fill: #fff;
+}
 
-.testimonials .testimonial .text-center h3 {
+.home-testimonials .testimonial .text-center h3 {
 	font-weight: 700;
 	margin: 1em 0 1.125em;
 	font-family: inherit;
 }
 
-.testimonials a {
+.home-testimonials a {
 	color: #21cdb2;
 	font-size: 16px;
 }
 
-.testimonials h3 {
+.home-testimonials h3 {
 	font-weight: 700;
 	margin: 1em 0 1.125em;
 	font-size: 1.375em;
 }
+.home-testimonials p {
+	width: 70%;
+	margin: 0 auto 10px;
+	color: #8d9499;
+	line-height: 1.5625em;
+	display: block;
+	text-align: center;
+}
 
-.testimonials .row {
+.home-testimonials .row {
 	height: 10px;
 }
 
-.testimonials img {
+.home-testimonials img {
 	height: 250px;
 	width: 400px;
 }
 
-#testimonials {
+.home-testimonials {
 	height: 750px;
+}
+
+.product-features-title {
+	font-size: 2.25em;
+	margin-bottom: 1.25em;
+	text-align: center;
+	display: block;
+}
+
+.product-features-title h1 {
+	margin-top: 20px;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+	margin: .67em 0;
+	display: block;
+	-webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.cta {
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: background-size .15s ease-out;
+	background-color: #fff;
+	margin: 7.5em 0;
+	min-height: 7.5em;
+	padding: 5em 0;
+	position: relative;
+	color: black;
+}
+.cta .cta-title {
+	font-size: 2.25em;
+	line-height: 1.3;
+	margin: .38462em 0 .19231em;
+}
+
+.cta .cta-title+p {
+	font-size: 1.125em;
+	max-width: 25em;
+	margin: 1.25em auto;
+	box-sizing: border-box;
+	display: block;
+}
+
+.text-center {
+	text-align: center;
 }
 
 .footer-nav-share img {
@@ -211,4 +282,59 @@ svg .divider polygon {
 	transition: .5s ease-in-out;
 	max-width: 100%;
 	vertical-align: middle;
+}
+
+.footer-mentions .footer-algolia img {
+	height: 1.125em;
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+
+}
+
+
+/*Logo carousel*/
+
+#clients {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#clients .clients-wrap {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#clients .clients-wrap ul {
+  display: block;
+  list-style: none;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+#clients .clients-wrap ul li {
+  display: block;
+  float: left;
+  position: relative;
+  width: 220px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+#clients .clients-wrap ul li img {
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+  -webkit-transition: 0 linear left;
+  -moz-transition: 0 linear left;
+  transition: 0 linear left;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+  filter: alpha(opacity=65);
+  opacity: 0.65;
+}
+#clients .clients-wrap ul li img:hover {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1.0;
 }
